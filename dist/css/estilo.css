@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Erica+One);
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    /*background-image: url('./img/fondo.png');*/
+    width: 1000%;
+    height: 1000%;
+    background-size: cover;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow: hidden;
+    /*background:"./scr/img/icon.svg";*/
+  }
+
+  #app.tes{
+    height: 400px;
+    width: 400px;
+    margin: 300px;
+  }
+
+  .tes1{
+    height: 500px;
+    width: 500px;
+    margin: 300px;
+  }
+  ::selection {
+    background: transparent;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Erica+One);
+/* BODY */
+::selection {
+  background: transparent;
+}
+
+
+
+#final{
+    margin-top: 850px;
+    margin-left: auto;
+    width: 10px;
+
+    width: 99.99%;
+}
+
+#pozo1 {
+    background-image: './scr/img/tesoro-inca.svg';
+    height: 510px;
+    width: 510px;
+    cursor: default;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin-top:120px;
+  
+    margin: 180px;
+    margin-left: 60px;
+    display: block;
+    
+    -webkit-animation: bounce 3.0s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+  }
+
+#pozo2 {
+    background-image: './scr/img/pozoAcumulado.svg';
+    height: 750px;
+    width: 750px;
+    cursor: default;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    margin-left: 580px;
+    margin-top: 80px;
+    display: block;
+    
+    -webkit-animation: bounce 2.0s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+  }
+
+#pozo3 {
+    background-image: './scr/img/pozoAdicional.svg';
+    height: 510px;
+    width: 510px;
+    cursor: default;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: 130px;
+  
+    margin-left: 1350px;
+    margin-top: 190px;
+    display: block;
+    
+    -webkit-animation: bounce 3.0s ease infinite alternate;
+    
+    
+    font-size: 80px;
+  
+    text-align: center;
+    line-height: 100px;
+}
+  /* ANIMATION */
+@keyframes bounce {
+    100% {
+      top: -30px;
+      
+    }
+  }
+  
